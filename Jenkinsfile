@@ -4,7 +4,7 @@ pipeline
 
   stages
   {
-    stage("Initialize Git)
+    stage("Initialize Git")
     {
       git init
     }
