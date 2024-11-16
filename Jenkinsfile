@@ -4,6 +4,10 @@ pipeline
 
   stages
   {
+    stage("Initialize Git)
+    {
+      git init
+    }
     stage("Maven Install")
     {
       steps
